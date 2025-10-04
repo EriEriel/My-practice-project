@@ -5,9 +5,9 @@ while True: #create an infinite loop
     if Balance.isdigit(): #check if variable is a digits or not 
        num = int(Balance)
        if 2000 <= num <= 10000:
-           a = num//1000
-           b = num//500
-           c = num//100
+          print(num//1000)
+          print(num//500)
+          print(num//100)
            break #break the loop
        else:
             print("Balance out of range. Try agian")
@@ -15,3 +15,4 @@ while True: #create an infinite loop
         print("please enter a valid number")
 
 input("Press Enter to exit...")
+
